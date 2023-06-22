@@ -1,0 +1,199 @@
+
+    header {
+        height: 200px;
+    }
+
+    .left {
+        /* margin: 0px; */
+        display: inline-block;
+        /* height:10px;
+        width: 30px; */
+        /* border: 2px solid rgb(240, 228, 67); */
+        position: absolute;
+        left: 0px;
+        top: 0px;
+
+    }
+
+    .left img {
+        position: relative;
+        top: -24px;
+        left: -33px;
+        margin: 0px;
+        height: 250px;
+        width: 250px;
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 25x;
+    }
+
+    .mid {
+        /* margin: 0px; */
+        display: block;
+        /* height:10px; */
+        width: 700px;
+        /* border: 5px solid rgb(236, 52, 52); */
+        /* border-style: double; */
+        margin: 40px auto;
+        /* background-color: black; */
+        padding-left: 59px;
+
+    }
+
+    .mid a{
+        font-size: 100px;
+    }
+
+    .right {
+        /* margin: 0px; */
+        display: inline-block;
+
+        height: 35px;
+        width: 250px;
+
+        /* border: 2px solid white; */
+
+        position: absolute;
+        top: 40px;
+        right: 10px
+            /* padding: 0px 4px; */
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        padding: 0px 21px 0px 10px;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: rgb(155, 154, 154);
+
+    }
+
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(245, 189, 189);
+
+    }
+
+    .btn {
+        font-family: 'Roboto Mono', monospace;
+        /* background-color: black; */
+        color: white;
+
+
+        display: inline-block;
+
+        cursor: pointer;
+
+        background-color: white;
+
+        padding: 0px 17px;
+        border-radius: 5px;
+
+        height: 30px
+    }
+
+    .btn:hover {
+        color: rgb(7, 7, 7);
+    }
+
+    .right button {
+        background-color: rgb(110, 106, 106);
+    }
+    
+    .container {
+        border: 2px solid rgb(252, 249, 249);
+        border-radius: 31px;
+        width: 415px;
+        margin: 30px 65px;
+    }
+    .container h2{
+        text-align: center;
+        color: rgb(242, 252, 248);
+    }
+    
+    .formgroup{
+        margin-left: 3px;
+        text-align: center;
+    }
+    .formgroup input{
+        border-radius: 2px;
+        height: 25px;
+        margin:10px 6px;
+        text-align: center;
+    }
+    .formgroup .btn {
+        background-color: rgb(7, 7, 7);
+        margin: 20px;
+    }
+    .formgroup .btn:hover {
+        background-color: rgb(121, 117, 117);
+    }
+
+    .social1{
+        /* display: inline-block; */
+        width: 250px;
+        height: 35px;
+        /* background-color:red; */
+        position: absolute;
+        right: 0px;
+        bottom: -60px;
+        
+    
+    }
+    .social1 img{
+
+        width: 25px;
+        height: 25px;
+      
+    }
+    .social1 a{
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+    }
+    .social1 a:hover{
+        color: rgb(108, 111, 114);
+    }
+    .social2{
+        /* display: inline-block; */
+        width: 250px;
+        height: 35px;
+        position: absolute;
+        right: 0px;
+        bottom: -90px;
+    }
+    .social2 img{
+
+        width: 25px;
+        height: 25px;
+      
+    }
+    .social2 a{
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+    }
+    .social2 a:hover{
+        color: rgb(108, 111, 114);
+    }
+   
+    .img1{
+        width: 10px;
+        height: 10px;
+        float: left;
+    }
